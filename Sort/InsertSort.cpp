@@ -11,7 +11,7 @@ using namespace std;
       如果待插入的元素值 大于等于 有序部分的某个值，说明这个地方就是待插入的位置。结束寻找循环，插入元素值。
     
     所以，数据有序程度越高，插入排序算法越高效（移动少）
-*/ 
+*/
 void insertSort(vector<int>& nums) {
     int N = nums.size();
     int i , j, tmp;
